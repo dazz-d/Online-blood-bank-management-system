@@ -1,0 +1,65 @@
+header
+{
+
+color:yellow;
+padding:5px;
+text-align:center;
+}
+
+nav
+{
+	border:3px;
+	background-color:SLATEBLUE;
+	
+}
+ul{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+}
+.column{
+	float:left;
+	width:50%;
+	padding:10px;
+	height:200px;
+}
+.row{
+	content:"";
+	display:table;
+	clear:both;
+}
+li{
+	float:left;
+}
+a{
+	display:block;
+	color:white;
+	text-align:center;
+	text-decoration:none;
+}
+article
+{
+	float:left;
+	border:3px "medium seagreen";
+	background-color:dodgerblue;
+	color:orange;
+	margin-right:200px;
+}
+
+
+aside
+{
+ float:right;
+   border:3px solid tomato;
+  color:violet;
+background-color:lightgray;
+height:300px;
+}
+footer
+{
+	float:bottom;
+border-top:5px ;
+background-color:gray;
+color:white;
+}	
